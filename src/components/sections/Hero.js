@@ -61,7 +61,7 @@ const Hero = ({
         <div className={innerClasses}>
           <div className="hero-content">
             <h1 className="mt-0 mb-16 reveal-from-bottom" data-reveal-delay="200">
-               <span className="text-color-primary">Garri-Hub</span>
+               <span className="text-color-primary" color='yellow'>Garri-Hub</span>
             </h1>
             <div className="container-xs">
               <p className="m-0 mb-32 reveal-from-bottom" data-reveal-delay="400">
@@ -88,7 +88,8 @@ const Hero = ({
             >
               <Image
                 className="has-shadow"
-                src={require('./../../assets/images/video-placeholder.jpg')}
+                src={require('./../../assets/images/istockphoto-1155123594-612x612.jpg')}
+                border-readius={0.75}
                 alt="Hero"
                 width={896}
                 height={504} />
