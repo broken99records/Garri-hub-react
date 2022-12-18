@@ -21,7 +21,7 @@ const Logo = ({
       <h1 className="m-0">
         <Link to="/">
           <Image
-            src={require('./../../../assets/images/istockphoto-1155123594-612x612_adobe_express.svg')}
+            src={require('./../../../assets/images/dsBuffer.bmp.png')}
             alt="Open"
             border-radius={50}
             width={32}
