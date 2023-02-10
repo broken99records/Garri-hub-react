@@ -61,7 +61,7 @@ class EntryPage extends Component {
                 </li>
                 <li>
                   <i/>
-                  <a onClick={ () => this.changeView("PWReset")} href="#">Forgot Password?</a>
+                  <a onClick={ () => this.changeView("PWReset")} Link to ="#">Forgot Password?</a>
                 </li>
               </ul>
             </fieldset>
