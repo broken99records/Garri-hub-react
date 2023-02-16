@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const { Component } = React
 
@@ -39,7 +40,8 @@ class EntryPage extends Component {
                 </li>
               </ul>
             </fieldset>
-            <button>Submit</button>
+            
+            <button><Link to="/MyGarage" className="button button-primary button-wide-mobile button-sm"  >Submit</Link></button>
             <button type="button" onClick={ () => this.changeView("logIn")}>Have an Account?</button>
           </form>
         )

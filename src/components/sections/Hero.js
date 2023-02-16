@@ -61,11 +61,11 @@ const Hero = ({
         <div className={innerClasses}>
           <div className="hero-content">
             <h1 className="mt-0 mb-16 reveal-from-bottom" data-reveal-delay="200">
-               <span className="text-color-primary" color='yellow'>Garri-Hub</span>
+               <span className="text-color-primary" color='yellow'>Parts-DLP</span>
             </h1>
             <div className="container-xs">
               <p className="m-0 mb-32 reveal-from-bottom" data-reveal-delay="400">
-                Our landing page shows commodity prices for Garri.
+                Find the right match with remanufactured and refurbished OEM auto Parts.
                 </p>
               <div className="reveal-from-bottom" data-reveal-delay="600">
                 <ButtonGroup>
@@ -88,7 +88,7 @@ const Hero = ({
             >
               <Image
                 className="has-shadow"
-                src={require('./../../assets/images/istockphoto-1155123594-612x612.jpg')}
+                src={require('./../../assets/images/part-hero.png')}
                 border-readius={0.75}
                 alt="Hero"
                 width={896}
