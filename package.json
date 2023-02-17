@@ -1,6 +1,7 @@
 {
   "name": "open-react-template",
   "version": "0.1.0",
+  "homepage": "https://broken99records.github.io/Garri-hub-react",
   "private": true,
   "dependencies": {
     "classnames": "^2.2.6",
@@ -14,9 +15,11 @@
   },
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://broken99records.github.io/Garri-hub-react"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -36,5 +39,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^5.0.0"
   }
 }
