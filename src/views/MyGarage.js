@@ -1,4 +1,8 @@
+
 import React from 'react';
+import GenericSection from '../components/sections/GenericSection';
+import { TextField } from '@mui/material';
+
 
 const { Component } = React
 
@@ -24,11 +28,13 @@ class MyGarage extends Component {
     }
     render(){
       return(
-        <div class="component-wrapper">
-          <h1>My Garage</h1>
+        <GenericSection>
+        <div id="MyGarage"  class="component-wrapper">    
+        <h1 class = 'text-color-primary'>My Garage </h1>    
           <DynamicList listItems={this.state.dynamicList} removeItem={this.removeListItem} />
           <InputBox addItem={this.addListItem} />
-        </div>
+        </div>  
+        </GenericSection>      
       );
     }
   }
@@ -53,20 +59,24 @@ class MyGarage extends Component {
     formSubmit(e){
       e.preventDefault();    
       let itemToAdd = this.refs.item.value;
-      if(itemToAdd != ''){
+      if(itemToAdd !== ''){
         this.props.addItem(itemToAdd);
         this.refs.item.value = '';
       }
     }
     render(){
       return (
-        <form id="MyGarage" ref="itemForm" onSubmit={e => this.formSubmit(e)}>
+        <GenericSection>
+          
+        <form id="MyGarage"  ref="itemForm" onSubmit={e => this.formSubmit(e)}>
           <p>Add your car to the dynamic list</p>
           <input type="text" id="item" ref="item"/><br />
           <button type="submit" class="btn btn-primary">Add Item</button>
         </form>
+        </GenericSection>
       );
     }
   }
   
   export default MyGarage;
+

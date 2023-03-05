@@ -7,7 +7,7 @@ class EntryPage extends Component {
   constructor(props){
     super(props)
     this.state = {
-      currentView: "signUp"
+      currentView: props.view
     }
   }
 
@@ -45,7 +45,7 @@ class EntryPage extends Component {
             <button type="button" onClick={ () => this.changeView("logIn")}>Have an Account?</button>
           </form>
         )
-        break
+        
       case "logIn":
         return (
           <form>
@@ -63,7 +63,7 @@ class EntryPage extends Component {
                 </li>
                 <li>
                   <i/>
-                  <a onClick={ () => this.changeView("PWReset")} Link to ="#">Forgot Password?</a>
+                  <button onClick={ () => this.changeView("PWReset")} Link to ="#">Forgot Password?</button>
                 </li>
               </ul>
             </fieldset>
@@ -71,7 +71,7 @@ class EntryPage extends Component {
             <button type="button" onClick={ () => this.changeView("signUp")}>Create an Account</button>
           </form>
         )
-        break
+        
       case "PWReset":
         return (
           <form>
@@ -101,7 +101,7 @@ class EntryPage extends Component {
   render() {
     return (
       <section id="entry-page">
-        {this.currentView()}
+        {this.currentView("signUp")}
       </section>
     )
   }
