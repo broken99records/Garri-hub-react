@@ -30,9 +30,11 @@
         ul{
         list-style: none;
         padding: 0;
-        width: 70%;
+        width: 100%;
         //float: inherit;
-        align-items: center;
+        //align-items: center;
+        display: block;
+
       
         }
         

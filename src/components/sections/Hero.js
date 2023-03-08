@@ -5,6 +5,7 @@ import ButtonGroup from '../elements/ButtonGroup';
 import Button from '../elements/Button';
 import Image from '../elements/Image';
 import Modal from '../elements/Modal';
+import { Link } from 'react-router-dom';
 
 const propTypes = {
   ...SectionProps.types
@@ -69,12 +70,17 @@ const Hero = ({
                 </p>
               <div className="reveal-from-bottom" data-reveal-delay="600">
                 <ButtonGroup>
-                  <Button tag="a" color="primary" wideMobile href="https://cruip.com/">
-                    Get started
+                  <Button tag="a" color="primary"  >
+                    <Link to={"/Search"}>
+                    Search
+                    </Link>                    
                     </Button>
-                  <Button tag="a" color="dark" wideMobile href="https://github.com/cruip/open-react-template/">
-                    View Prices
-                    </Button>
+
+                  <Button tag="a" color="dark" wideMobile href="">
+                    <Link to={"/Learn"}>
+                  Learn More
+                    </Link>                    
+                  </Button>
                 </ButtonGroup>
               </div>
             </div>

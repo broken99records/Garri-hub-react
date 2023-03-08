@@ -1,6 +1,8 @@
 
 import React from 'react';
 import GenericSection from '../components/sections/GenericSection';
+import DeleteSharpIcon from '@mui/icons-material/DeleteSharp';
+import DirectionsCarIcon from '@mui/icons-material/DirectionsCar';
 
 
 
@@ -16,10 +18,15 @@ class MyGarage extends Component {
       this.addListItem = this.addListItem.bind(this);
       this.removeListItem = this.removeListItem.bind(this);
     }
+
+    //adds an item to the dynamic list, given list is less than 2 items
     addListItem(itemToAdd){
       let currentList = this.state.dynamicList;
-      currentList.push(itemToAdd);
-      this.setState({dynamicList : currentList});
+      if (currentList.length < 2) {
+        currentList.push(itemToAdd);
+        this.setState({dynamicList : currentList});
+      }
+      
     }
     removeListItem(itemToRemove){
       let currentList = this.state.dynamicList;
@@ -46,7 +53,7 @@ class MyGarage extends Component {
           {
             Object.keys(this.props.listItems).map( (index) => {
               return (
-                <li onClick={ () => this.props.removeItem(index) } name={index}>{this.props.listItems[index]}</li>
+                <li  name={index}>  <DirectionsCarIcon/>    {this.props.listItems[index]} <DeleteSharpIcon onClick={ () => this.props.removeItem(index) }/>    </li>                
               );
             })
           }
