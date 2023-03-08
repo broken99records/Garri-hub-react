@@ -3,6 +3,7 @@ import React from 'react';
 import GenericSection from '../components/sections/GenericSection';
 import DeleteSharpIcon from '@mui/icons-material/DeleteSharp';
 import DirectionsCarIcon from '@mui/icons-material/DirectionsCar';
+import { GarageRounded } from '@mui/icons-material';
 
 
 
@@ -37,7 +38,7 @@ class MyGarage extends Component {
       return(
         <GenericSection>
         <div id="MyGarage"  class="component-wrapper">    
-        <h1 class = 'text-color-primary'>My Garage </h1>    
+        <h1 class = 'text-color-primary'>My Garage <GarageRounded/> </h1>    
           <DynamicList listItems={this.state.dynamicList} removeItem={this.removeListItem} />
           <InputBox addItem={this.addListItem} />
         </div>  

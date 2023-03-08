@@ -45,7 +45,7 @@ const App = () => {
           <AppRoute exact path="/SignUp" component={SignUp} layout={LayoutDefault} />
           <AppRoute exact path="/MyGarage" component={MyGarage} layout={LayoutDefault} />
           <AppRoute exact path="/LogIn" component={LogIn} layout={LayoutDefault}/>
-          <AppRoute exact path="/Search" component={Search} />
+          <AppRoute exact path="/Search" component={Search} layout={LayoutDefault}/>
         </Switch>
       )} />
   );
