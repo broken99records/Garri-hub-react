@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/Garri-hub-react/static/css/main.839dcb36.chunk.css",
-    "main.js": "/Garri-hub-react/static/js/main.f5e8018c.chunk.js",
-    "main.js.map": "/Garri-hub-react/static/js/main.f5e8018c.chunk.js.map",
+    "main.css": "/Garri-hub-react/static/css/main.c69dacf8.chunk.css",
+    "main.js": "/Garri-hub-react/static/js/main.2c45e391.chunk.js",
+    "main.js.map": "/Garri-hub-react/static/js/main.2c45e391.chunk.js.map",
     "runtime-main.js": "/Garri-hub-react/static/js/runtime-main.7c4808cb.js",
     "runtime-main.js.map": "/Garri-hub-react/static/js/runtime-main.7c4808cb.js.map",
-    "static/js/2.e5947536.chunk.js": "/Garri-hub-react/static/js/2.e5947536.chunk.js",
-    "static/js/2.e5947536.chunk.js.map": "/Garri-hub-react/static/js/2.e5947536.chunk.js.map",
+    "static/js/2.71b7029b.chunk.js": "/Garri-hub-react/static/js/2.71b7029b.chunk.js",
+    "static/js/2.71b7029b.chunk.js.map": "/Garri-hub-react/static/js/2.71b7029b.chunk.js.map",
     "index.html": "/Garri-hub-react/index.html",
-    "precache-manifest.a5fe9c0c3c39c60bb9e6cfedcc757a19.js": "/Garri-hub-react/precache-manifest.a5fe9c0c3c39c60bb9e6cfedcc757a19.js",
+    "precache-manifest.733fb793e62a00b15fa354d02df0476f.js": "/Garri-hub-react/precache-manifest.733fb793e62a00b15fa354d02df0476f.js",
     "service-worker.js": "/Garri-hub-react/service-worker.js",
-    "static/css/main.839dcb36.chunk.css.map": "/Garri-hub-react/static/css/main.839dcb36.chunk.css.map",
-    "static/js/2.e5947536.chunk.js.LICENSE.txt": "/Garri-hub-react/static/js/2.e5947536.chunk.js.LICENSE.txt",
+    "static/css/main.c69dacf8.chunk.css.map": "/Garri-hub-react/static/css/main.c69dacf8.chunk.css.map",
+    "static/js/2.71b7029b.chunk.js.LICENSE.txt": "/Garri-hub-react/static/js/2.71b7029b.chunk.js.LICENSE.txt",
     "static/media/style.scss": "/Garri-hub-react/static/media/illustration-section-02.63d0555d.svg",
     "static/media/dsBuffer.bmp.png": "/Garri-hub-react/static/media/dsBuffer.bmp.bb1e3029.png",
     "static/media/feature-tile-icon-01.svg": "/Garri-hub-react/static/media/feature-tile-icon-01.0f9928d7.svg",
@@ -27,8 +27,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.7c4808cb.js",
-    "static/js/2.e5947536.chunk.js",
-    "static/css/main.839dcb36.chunk.css",
-    "static/js/main.f5e8018c.chunk.js"
+    "static/js/2.71b7029b.chunk.js",
+    "static/css/main.c69dacf8.chunk.css",
+    "static/js/main.2c45e391.chunk.js"
   ]
 }
