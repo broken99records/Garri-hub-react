@@ -1,7 +1,7 @@
 {
   "name": "open-react-template",
   "version": "0.1.0",
-  "homepage": "https://broken99records.github.io",
+  "homepage": "https://broken99records.github.io/Garri-hub-react",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.10.6",
