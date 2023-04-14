@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f0fe275e162552f556039c1d7ef67520",
+    "revision": "cb06f8b4beca25b96baa0cb9892bd2ca",
     "url": "/Garri-hub-react/index.html"
   },
   {
-    "revision": "ad3160ef618821fb5a98",
-    "url": "/Garri-hub-react/static/css/main.c69dacf8.chunk.css"
+    "revision": "a1f4ed6e7f5950da0227",
+    "url": "/Garri-hub-react/static/css/main.2190957d.chunk.css"
   },
   {
-    "revision": "b64254b5d0e5ca538f39",
-    "url": "/Garri-hub-react/static/js/2.71b7029b.chunk.js"
+    "revision": "2b6bc058dc90998dc3de",
+    "url": "/Garri-hub-react/static/js/2.da9ae923.chunk.js"
   },
   {
-    "revision": "1fd350536ede2c2a6f36abd0c6592eec",
-    "url": "/Garri-hub-react/static/js/2.71b7029b.chunk.js.LICENSE.txt"
+    "revision": "cbd049bf82600ff81c2511e3559e86ad",
+    "url": "/Garri-hub-react/static/js/2.da9ae923.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "ad3160ef618821fb5a98",
-    "url": "/Garri-hub-react/static/js/main.2c45e391.chunk.js"
+    "revision": "a1f4ed6e7f5950da0227",
+    "url": "/Garri-hub-react/static/js/main.0513d1f3.chunk.js"
   },
   {
     "revision": "dc5dd54af98fefadff29",
