@@ -11,7 +11,23 @@ import FormControl from '@mui/material/FormControl';
 //import { color } from '@mui/system';
 
 
+
+const renderPosts = async () => {
+  
+  let uri = 'http://localhost:3000/cars?_sort=color&_order=desc';
+  
+
+const res = await fetch(uri);
+const posts = await res.json();
+console.log(posts);
+
+}
+
+
+window.addEventListener('DOMContentLoaded', () => renderPosts());
+
 class Search extends Component {
+ 
 
 render (){
     return(
