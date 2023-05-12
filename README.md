@@ -112,7 +112,7 @@ In order to track visitors, you need to set an [environment variable](https://cr
 ## Terms and License
 
 - Released under the [GPL](https://www.gnu.org/licenses/gpl-3.0.html).
-- Copyright 2020 [Cruip](https://cruip.com/).
+- Copyright 2020 [Broken99Records](https://Broken99Records.com/).
 - Use it for personal and commercial projects, but please don’t republish, redistribute, or resell the template.
 - Attribution is not required, although it is really appreciated.
 
