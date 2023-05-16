@@ -108,12 +108,13 @@ In order to track visitors, you need to set an [environment variable](https://cr
 
 - [Nucleo](https://nucleoapp.com/)
 - [Unsplash](https://unsplash.com/)
+- [cruip](https://cruip.com/)
 
 ## Terms and License
 
 - Released under the [GPL](https://www.gnu.org/licenses/gpl-3.0.html).
 - Copyright 2020 [Broken99Records](https://Broken99Records.com/).
-- Use it for personal and commercial projects, but please don’t republish, redistribute, or resell the template.
+- Use it for personal and commercial projects, but please don’t republish, redistribute, or resell.
 - Attribution is not required, although it is really appreciated.
 
 ## About Us
