@@ -45,7 +45,7 @@ function CarList() {
           <Card
             sx={{ maxWidth: 345 }}              
             component={Card}
-            xs={cars.length/5}
+            
             className={"Card"}
             key={car.id}
             
