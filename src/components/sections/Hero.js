@@ -62,7 +62,7 @@ const Hero = ({
         <div className={innerClasses}>
           <div className="hero-content">
             <h1 className="mt-0 mb-16 reveal-from-bottom" data-reveal-delay="200">
-               <span className="text-color-primary" color='yellow'>Parts-DLP</span>
+               <span className="text-color-primary" color='yellow'>Spare Auto</span>
             </h1>
             <div className="container-xs">
               <p className="m-0 mb-32 reveal-from-bottom" data-reveal-delay="400">
@@ -76,12 +76,14 @@ const Hero = ({
                     </Link>                    
                     </Button>
 
-                  <Button tag="a" color="dark" wideMobile href="">
+                  {/*<Button tag="a" color="dark" wideMobile href="">
                     <Link to={"/Learn"}>
                   Learn More
                     </Link>                    
                   </Button>
+                  */}
                 </ButtonGroup>
+  
               </div>
             </div>
           </div>
