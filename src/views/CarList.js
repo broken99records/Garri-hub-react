@@ -13,20 +13,24 @@ function CarList() {
   // Create a state variable to store the fetched data
   const [cars, setCars] = useState([]);
 
+useEffect(() => {
   // Define a function that fetches data from the URL
   const fetchData = async () => {
     // Use fetch or axios to make an HTTP request
-    const response = await fetch("http://localhost:3004/cars?_sort=id&_order=asc");
+    const response = await fetch("https://broken99records.github.io/database/db.json");
+    
     // Parse the response as JSON
     const data = await response.json();
+    
     // Update the state variable with the fetched data
-    setCars(data);
+    setCars(data.cars);
+
+    //console.log(response, data, cars)
   };
 
   // Call the function inside useEffect and pass an empty array as the second argument
-  useEffect(() => {
-    fetchData();
-  }, []);
+  fetchData();
+}, []);
 
   // Render the fetched data or a loading message
   
