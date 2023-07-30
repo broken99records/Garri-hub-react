@@ -6,6 +6,8 @@ import Button from '../elements/Button';
 import Image from '../elements/Image';
 import Modal from '../elements/Modal';
 import { Link } from 'react-router-dom';
+//import { GridSearchIcon } from '@mui/x-data-grid';
+//import SearchIcon from "@mui/icons-material/Search";
 
 const propTypes = {
   ...SectionProps.types
@@ -66,13 +68,13 @@ const Hero = ({
             </h1>
             <div className="container-xs">
               <p className="m-0 mb-32 reveal-from-bottom" data-reveal-delay="400">
-                Find the right match with remanufactured and refurbished OEM auto Parts.
+                Find the right part with our salvaged Auto Parts.
                 </p>
               <div className="reveal-from-bottom" data-reveal-delay="600">
                 <ButtonGroup>
                   <Button tag="a" color="primary"  >
                     <Link to={"/Search"}>
-                    Search
+                      Search                                       
                     </Link>                    
                     </Button>
 
