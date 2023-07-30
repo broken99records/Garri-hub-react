@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3651891d29182bbef00a4913abf4f4fd",
+    "revision": "24485d25414ceb0032496a6721b13916",
     "url": "/Garri-hub-react/index.html"
   },
   {
-    "revision": "3bba16f76c622dfadd04",
+    "revision": "e820e0388059d51b4d2e",
     "url": "/Garri-hub-react/static/css/main.d3f3abd3.chunk.css"
   },
   {
-    "revision": "001a4f750a8cc1b4e8fd",
-    "url": "/Garri-hub-react/static/js/2.6445705f.chunk.js"
+    "revision": "876fb755fe4fb4380541",
+    "url": "/Garri-hub-react/static/js/2.09f61f7f.chunk.js"
   },
   {
     "revision": "cbd049bf82600ff81c2511e3559e86ad",
-    "url": "/Garri-hub-react/static/js/2.6445705f.chunk.js.LICENSE.txt"
+    "url": "/Garri-hub-react/static/js/2.09f61f7f.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "3bba16f76c622dfadd04",
-    "url": "/Garri-hub-react/static/js/main.bb7786cd.chunk.js"
+    "revision": "e820e0388059d51b4d2e",
+    "url": "/Garri-hub-react/static/js/main.46272cf4.chunk.js"
   },
   {
     "revision": "dc5dd54af98fefadff29",
@@ -54,18 +54,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "6a1776963deb39d710bae80bb449aebe",
     "url": "/Garri-hub-react/static/media/feature-tile-icon-06.6a177696.svg"
-  },
-  {
-    "revision": "d9cb99ceb6a66250792ed78f5765325b",
-    "url": "/Garri-hub-react/static/media/features-split-image-01.d9cb99ce.png"
-  },
-  {
-    "revision": "3c569239f88160018f79029ba5dc227d",
-    "url": "/Garri-hub-react/static/media/features-split-image-02.3c569239.png"
-  },
-  {
-    "revision": "87e4d053756c60c9f421195d8eafdbfe",
-    "url": "/Garri-hub-react/static/media/features-split-image-03.87e4d053.png"
   },
   {
     "revision": "ea6949039d6554ebf2cf109f333f5811",

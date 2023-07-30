@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/Garri-hub-react/static/css/main.d3f3abd3.chunk.css",
-    "main.js": "/Garri-hub-react/static/js/main.bb7786cd.chunk.js",
-    "main.js.map": "/Garri-hub-react/static/js/main.bb7786cd.chunk.js.map",
+    "main.js": "/Garri-hub-react/static/js/main.46272cf4.chunk.js",
+    "main.js.map": "/Garri-hub-react/static/js/main.46272cf4.chunk.js.map",
     "runtime-main.js": "/Garri-hub-react/static/js/runtime-main.7c4808cb.js",
     "runtime-main.js.map": "/Garri-hub-react/static/js/runtime-main.7c4808cb.js.map",
-    "static/js/2.6445705f.chunk.js": "/Garri-hub-react/static/js/2.6445705f.chunk.js",
-    "static/js/2.6445705f.chunk.js.map": "/Garri-hub-react/static/js/2.6445705f.chunk.js.map",
+    "static/js/2.09f61f7f.chunk.js": "/Garri-hub-react/static/js/2.09f61f7f.chunk.js",
+    "static/js/2.09f61f7f.chunk.js.map": "/Garri-hub-react/static/js/2.09f61f7f.chunk.js.map",
     "index.html": "/Garri-hub-react/index.html",
-    "precache-manifest.a54b5b1491dafd52137df8e6261f3938.js": "/Garri-hub-react/precache-manifest.a54b5b1491dafd52137df8e6261f3938.js",
+    "precache-manifest.7a888e9680104f06d822053ece4ab4ab.js": "/Garri-hub-react/precache-manifest.7a888e9680104f06d822053ece4ab4ab.js",
     "service-worker.js": "/Garri-hub-react/service-worker.js",
     "static/css/main.d3f3abd3.chunk.css.map": "/Garri-hub-react/static/css/main.d3f3abd3.chunk.css.map",
-    "static/js/2.6445705f.chunk.js.LICENSE.txt": "/Garri-hub-react/static/js/2.6445705f.chunk.js.LICENSE.txt",
+    "static/js/2.09f61f7f.chunk.js.LICENSE.txt": "/Garri-hub-react/static/js/2.09f61f7f.chunk.js.LICENSE.txt",
     "static/media/style.scss": "/Garri-hub-react/static/media/illustration-section-02.63d0555d.svg",
     "static/media/dsBuffer.bmp.png": "/Garri-hub-react/static/media/dsBuffer.bmp.bb1e3029.png",
     "static/media/feature-tile-icon-01.svg": "/Garri-hub-react/static/media/feature-tile-icon-01.0f9928d7.svg",
@@ -20,15 +20,12 @@
     "static/media/feature-tile-icon-04.svg": "/Garri-hub-react/static/media/feature-tile-icon-04.836acd10.svg",
     "static/media/feature-tile-icon-05.svg": "/Garri-hub-react/static/media/feature-tile-icon-05.fa9ba00b.svg",
     "static/media/feature-tile-icon-06.svg": "/Garri-hub-react/static/media/feature-tile-icon-06.6a177696.svg",
-    "static/media/features-split-image-01.png": "/Garri-hub-react/static/media/features-split-image-01.d9cb99ce.png",
-    "static/media/features-split-image-02.png": "/Garri-hub-react/static/media/features-split-image-02.3c569239.png",
-    "static/media/features-split-image-03.png": "/Garri-hub-react/static/media/features-split-image-03.87e4d053.png",
     "static/media/part-hero.png": "/Garri-hub-react/static/media/part-hero.7f7d1bc5.png"
   },
   "entrypoints": [
     "static/js/runtime-main.7c4808cb.js",
-    "static/js/2.6445705f.chunk.js",
+    "static/js/2.09f61f7f.chunk.js",
     "static/css/main.d3f3abd3.chunk.css",
-    "static/js/main.bb7786cd.chunk.js"
+    "static/js/main.46272cf4.chunk.js"
   ]
 }
