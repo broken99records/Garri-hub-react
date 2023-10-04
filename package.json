@@ -1,7 +1,7 @@
 {
-  "name": "open-react-template",
+  "name": "legalize-online",
   "version": "0.1.0",
-  "homepage": "https://broken99records.github.io/Garri-hub-react",
+  "homepage": "https://broken99records.github.io/Legalize",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.10.6",
@@ -34,7 +34,6 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "database": "json-server --watch src/database/db.json --port 3004"
-  
   },
   "eslintConfig": {
     "extends": "react-app"
